@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex-grow: 1;
+}
+.carouselProductos{
+    height: 400px;
+    object-fit: cover;
+}
+#igIcon{
+    color: #C13584;
+}
+#fbIcon{
+    color: #4267B2;
+}
+#waIcon{
+    color: #128C7E;
+}
+#error404 img{
+    width: 100%;
+    height: auto
+}
+#error404{
+    width: 40rem;
+}
+#error404Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:639px) {
+    #error404{
+        width: 100vw;
+    }
+}
